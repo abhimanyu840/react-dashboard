@@ -28,7 +28,7 @@ interface SSH {
 interface BaseDataItem {
     timestamp: string;
     flow_id: number;
-    in_iface: string;
+    in_iface?: string;
     event_type: string;
     src_ip: string;
     src_port: number;
